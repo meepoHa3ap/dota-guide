@@ -1,0 +1,31 @@
+[
+  // ... предыдущие герои (Pudge, Anti-Mage) ...
+  {
+    "name": "Slark",
+    "role": "carry",
+    "lane": "Hard",
+    "build": [
+      "Echo Sabre",
+      "Diffusal Blade",
+      "Silver Edge"
+    ],
+    "tips": [
+      "Используй Ultimate (Shadow Dance) для доджа спамов и побега",
+      "Dark Pact снимает дебаффы — активируй перед станами"
+    ],
+    "image": "assets/heroes/slark.png"
+  },
+  {
+    "name": "Meepo",
+    "role": "carry",
+    "lane": "Mid",
+    "build": [
+      "Dragon Lance"
+    ],
+    "tips": [
+      "Контроль за 4-мя клонами через табуляцию",
+      "Используй Poof для мгновенного фарма и ганков"
+    ],
+    "image": "assets/heroes/meepo.png"
+  }
+]
