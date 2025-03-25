@@ -1,0 +1,36 @@
+/* Основные стили */
+body {
+    font-family: 'Radiance', sans-serif;
+    background: #0d0d11;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background: #1a1a2e;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
+  }
+  
+  .filters {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin: 1rem 0;
+  }
+  
+  button {
+    background: #2a2a3c;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }

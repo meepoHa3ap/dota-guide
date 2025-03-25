@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Гид по Dota 2 от [Твой ник]</title>
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/heroes.css">
+</head>
+<body>
+  <header>
+    <h1>Мой стиль игры в Dota 2</h1>
+    <nav>
+      <ul>
+        <li><a href="#heroes">Герои</a></li>
+        <li><a href="#builds">Билды</a></li>
+        <li><a href="#tips">Советы</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="heroes">
+      <h2>Мои герои</h2>
+      <div class="filters">
+        <button data-role="all">Все</button>
+        <button data-role="carry">Керри</button>
+        <button data-role="support">Саппорт</button>
+        <button data-role="hard">Оффлейн</button>
+      </div>
+      <div class="heroes-grid" id="heroes-container">
+        <!-- Герои будут здесь -->
+      </div>
+    </section>
+
+    <section id="builds">
+      <h2>Билды</h2>
+      <div class="builds-container">
+        <!-- Билды будут здесь -->
+      </div>
+    </section>
+  </main>
+
+  <script src="scripts/app.js"></script>
+  <script src="scripts/heroes.js"></script>
+</body>
+</html>
